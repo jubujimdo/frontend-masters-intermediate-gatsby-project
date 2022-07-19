@@ -19,6 +19,21 @@ exports.sourceNodes = ({actions, createNodeId, createContentDigest})=>{
         })
     }
     )
+
+    books.forEach((book)=>{
+        createNode({
+            ...book,
+            id: createNodeId(`book-${book.isbn}`),
+            parent: null,
+            children: [], 
+            internal: {
+                type: 'Book',
+                content: JSON.stringify(book),
+                contentDigest: createContentDigest(book)
+            }
+        })
+    }
+    )
 };
 
 exports.createPages = ({actions}) => {
