@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/julianbuchholz/.nvm/versions/node/v16.6.1/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js
+
+PATH: 
+  /Users/julianbuchholz/.nvm/versions/node/v16.6.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.6.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/julianbuchholz/Programming/gatsby-intermediate/frontend-masters-intermediate-gatsby-project/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
