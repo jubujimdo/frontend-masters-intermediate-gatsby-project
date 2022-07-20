@@ -23,7 +23,7 @@ return(
     <ul>
         {authors.map((author)=> (
             <li key={author.slug}>
-                <Link to={`/${author.slug}`}>${author.name}</Link>
+                <Link to={`/${author.slug}`}>{author.name}</Link>
             </li>
         )
         )}
